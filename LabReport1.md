@@ -17,6 +17,8 @@ For opening up the terminal, if you are on windows you have to install git at ht
 
 Note that you should substitute zz to your own cse15l specific account. It will ask you if you want to connect, type 'yes' and type in your password for the account. Voila, you are connected! After typing your password, you should be presented with output like such:
 
+![Image](Remote_Connection.png)
+
 ### **Step 3: Trying Some Commands**
 
 Finally, you should run some commands to get a feeling of how much access you have. Commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp` can be run on both your computer and the remote computer after using ssh that is.
@@ -28,6 +30,10 @@ Other specific commands you can try are:
 * `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is someone else's account username
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+
+There are a variety of outputs but it is for you to explore. This is an example of a couple of inputs and outputs:
+
+![Image](Commands.png)
 
 And you can always log out of the remote server using:
 * Ctrl-D
