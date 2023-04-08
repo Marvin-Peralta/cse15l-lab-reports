@@ -15,7 +15,7 @@ To install Visual Code Studio, you must go to https://code.visualstudio.com/ and
 For opening up the terminal, if you are on windows you have to install git at https://gitforwindows.org and set the default terminal "git bash" in VSCode through this tutorial https://stackoverflow.com/a/50527994, whereas if you are on a mac you can simply open up a terminal in  VSCode through the terminal menu at the top. Use the command:
 `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 
-Note that you should substitute zz to your own cse15l specific account. It will ask you if you want to connect, type 'yes' and type in your password for the account. Voila, you are connected!
+Note that you should substitute zz to your own cse15l specific account. It will ask you if you want to connect, type 'yes' and type in your password for the account. Voila, you are connected! After typing your password, you should be presented with output like such:
 
 ### **Step 3: Trying Some Commands**
 
