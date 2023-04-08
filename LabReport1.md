@@ -8,6 +8,8 @@
 
 To install Visual Code Studio, you must go to https://code.visualstudio.com/ and follow the instructions on how to download it to your device. Instructions will vary depending on whether you are using windows or mac so be careful! After installing, open up VSCode and the application should look something like the image below, depending on the color scheme.
 
+![Image](VSCode_Startup.png)
+
 ### **Step 2: Remotely Connecting**
 
 For opening up the terminal, if you are on windows you have to install git at https://gitforwindows.org and set the default terminal "git bash" in VSCode through this tutorial https://stackoverflow.com/a/50527994, whereas if you are on a mac you can simply open up a terminal in  VSCode through the terminal menu at the top. Use the command:
