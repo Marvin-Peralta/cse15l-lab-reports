@@ -3,8 +3,8 @@
 _pee_
 __PEE__
 
-#The Duality of a Math-CS Major
-##Chapter 1: Desires of a CS Reject
+# The Duality of a Math-CS Major
+## Chapter 1: Desires of a CS Reject
 
 [Mark Wahlberg] (https://twitter.com/stoolpresidente/status/510137195853000705?lang=en)
 
