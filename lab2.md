@@ -31,5 +31,16 @@ This test passed.
 
 ![Image](JUnitTests.png)
 
+`for (int i = 0; i < nums.length; i += 2) {
+  sum += nums[i + 1];
+ }`
+ 
+ `for (int i = 0; i < nums.length - 1; i += 2) {
+    sum += nums[i + 1];
+  }`
+  
+  Setting the limit of the for loop up until `i` is less than `nums.length - 1` makes it so that `sum` would not try to add a index from `nums` that is out of bounds, allowing both odd and even arrays to succeed when this method is used. 
+
 ### **Part 3**
 
+I learned that you can change a web server's contents by simply portions of the URL. Of course, this does not apply to all sites, only those that are programmeed to do so, yet it is really interesting to alter the contents without having to change some of the coding.
