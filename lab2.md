@@ -3,7 +3,11 @@
 
 ### **Part 1**
 
+![Image](HiMsg.png)
 
+
+
+I couldn't get the messages to add :(
 
 ### **Part 2**
 
