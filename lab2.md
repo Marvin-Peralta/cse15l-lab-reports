@@ -29,8 +29,7 @@ This test failed.
 }`
 This test passed.
 
-
-
+![Image](JUnitTests.png)
 
 ### **Part 3**
 
