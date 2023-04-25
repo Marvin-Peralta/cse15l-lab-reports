@@ -6,9 +6,9 @@
 
 ### **Step 1: Installing VSCode**
 
-To install Visual Code Studio, you must go to https://code.visualstudio.com/ and follow the instructions on how to download it to your device. Instructions will vary depending on whether you are using windows or mac so be careful! After installing, open up VSCode and the application should look something like the image below, depending on the color scheme.
+To install Visual Code Studio, you must go to [here] (https://code.visualstudio.com/) and follow the instructions on how to download it to your device. Instructions will vary depending on whether you are using windows or mac so be careful! After installing, open up VSCode and the application should look something like the image below, depending on the color scheme.
 
-![Image](VSCode_Startup.png)
+![Image](VSCode_Startup.png=250x350)
 
 ### **Step 2: Remotely Connecting**
 
