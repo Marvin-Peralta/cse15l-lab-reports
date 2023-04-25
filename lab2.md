@@ -3,9 +3,9 @@
 
 ### **Part 1**
 
-![Image](HiMsg.png)
+<img src="HiMsg.png" alt="HiMsg" width="250" height="200">
 
-
+<img src="HelloMsg.png" alt="VSCodeStartup" width="250" height="200">
 
 I couldn't get the messages to add :(
 
