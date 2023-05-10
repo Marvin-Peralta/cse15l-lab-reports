@@ -80,6 +80,7 @@ class StringServer {
 ```
 
 <img src="HelloMessage2.png" alt="HelloMessage" width="250" height="200">
+
 DISCLAIMER: I used the Skill Demo's stringsearch-main code and edited some of its contents to do this lab report!
 
 The main method was called to start the server (essentially calling the `start` method in Server.java, but because I ran the server to display an empty file called `labresub.txt`, I had to add the string `hello` through editing the URL, calling the `handleRequest` method.
