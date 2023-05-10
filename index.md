@@ -87,6 +87,14 @@ The main method was called to start the server (essentially calling the `start` 
 <img src="WorldMessage.png" alt="WorldMessage" width="250" height="200">
 Again, I edited the URL to add `world` so `handleRequest` was called again
 
+Relevant arguments in the code are the URL containing any of the following:
+`/add-message`
+`/search`
+`/save`
+Whatever is added, saved, or searched is a string from a list of strings saved in labresub.txt (or there for the time being). So even if an int, char, or double are added, it will still be a string value.
+
+The list of string append a string given `/add-message?s=<text>` is added to the URL where `text` is the string added.
+
 
 ### **Part 2**
 
