@@ -124,19 +124,39 @@ This test passed
 ```
 This test failed
 
+<img src="JUnit_Tests2.png" alt="JUnitTests" width="250" height="200">
 
+```
+public String toString() {
+  Node n = this.root;
+  String s = "";
+  while(n != null) {
+    s += n.value + " ";
+    n = n.next;
+  }
+  return s;
+}
+```
+This is the old code
+```
+public String toString() {
+  Node n = this.root;
+  String s = "";
+  if (n != null) {
+    s += n.value;
+    n = n.next;
+    while (n != null) {
+      s += " " + n.value;
+      n = n.next;
+    }
+  }
+  return s;
+```
+This is the new code that passes the JUnit test
 
-<img src="HelloMessage2.png" alt="HelloMessage" width="250" height="200">
+The JUnit assertEquals compares `22 45 52` to `22 45 52 ` where there is a space left over. In the new code, spaces are only in between existing values instead of after every existing value. Now the JUnit test for `testToString()` works.
 
-`for (int i = 0; i < nums.length; i += 2) {
-  sum += nums[i + 1];
- }`
- 
- `for (int i = 0; i < nums.length - 1; i += 2) {
-    sum += nums[i + 1];
-  }`
-  
-  Setting the limit of the for loop up until `i` is less than `nums.length - 1` makes it so that `sum` would not try to add a index from `nums` that is out of bounds, allowing both odd and even arrays to succeed when this method is used. 
+<img src="JUnit_Tests2.png" alt="JUnitTests" width="250" height="200">
 
 ### **Part 3**
 
