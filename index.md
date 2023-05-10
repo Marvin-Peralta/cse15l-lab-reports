@@ -99,29 +99,34 @@ The list of string append a string given `/add-message?s=<text>` is added to the
 
 ### **Part 2**
 
-`class EvenExample {
-  static int sumEvenIndices(int[] num) {
-    int sum = 0;
-    for(int i = 0; i < nums.length; i += 2) {
-      sum += nums[i + 1];
-    }
-    return sum;
+Note:
+```
+LinkedList emptyLL = new LinkedList();
+LinkedList anotherEmptyLL = new LinkedList();
+
+```
+This block of code came before the tests
+
+```
+@Test
+public void testAppendEmpty() {
+  this.emptyLL.append(12);
+  assertEquals(12, this.emptyLL.root.value);
   }
-}`
+```
+This test passed
+```
+@Test void testToString() {
+  this.anotherEmptyLL.prepend(45);
+  this.anotherEmptyLL.append(52);
+  this.anotherEmptyLL.prepend(22);
+  assertEquals("22, 45, 52", this.anotherEmptyLL.toString());
+```
+This test failed
 
-`public void testSumEvenLength5() {
-  int[] input1 = { 12, 13, 7, 2, 33};
-  assertEquals(EvenExamples.sumEvenIndices(input1), 52);
-}`
-This test failed.
 
-`public void testSumEvenLength6() {
-  int[] input1 = { 12, 13, 7, 8, 5, 3};
-  assertEquals(EvensExamples.sumEvenIndices(input1), 24);
-}`
-This test passed.
 
-![Image](JUnitTests.png)
+<img src="HelloMessage2.png" alt="HelloMessage" width="250" height="200">
 
 `for (int i = 0; i < nums.length; i += 2) {
   sum += nums[i + 1];
