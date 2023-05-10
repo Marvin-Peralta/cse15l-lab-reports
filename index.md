@@ -156,7 +156,7 @@ This is the new code that passes the JUnit test
 
 The JUnit assertEquals compares `22 45 52` to `22 45 52 ` where there is a space left over. In the new code, spaces are only in between existing values instead of after every existing value. Now the JUnit test for `testToString()` works.
 
-<img src="JUnit_Tests2.png" alt="JUnitTests" width="250" height="200">
+<img src="JUnit_Tests3.png" alt="JUnitTests2" width="250" height="200">
 
 ### **Part 3**
 
