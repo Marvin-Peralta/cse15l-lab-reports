@@ -1,4 +1,4 @@
-# **Lab Report 3 **
+# **Lab Report 3**
 ## By Marvin Peralta, A17271264
 
 ## The GREP command
