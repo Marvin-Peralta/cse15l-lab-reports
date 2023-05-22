@@ -330,3 +330,78 @@ Source:
 [The Geek Stuff](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 [ChatGPT](https://chat.openai.com)
+
+I mostly used ChatGPT to confirm TheGeekStuff given commands and how to use it in a different scenario than what was given (It was kinda confusing to see what the output was on TheGeekStuff)
+
+ChatGPT History Used:
+
+Input: what does grep -l do
+
+Output: 
+The grep -l command is used to search for files containing a specific pattern and display only the names of the files that match the pattern. It stands for "grep, list-only mode."
+
+Here's a breakdown of what grep -l does:
+
+grep: The command for searching files using regular expressions.
+-l: The option for list-only mode. It tells grep to display only the names of the files that contain the matching pattern, rather than showing the actual matching lines.
+When you run grep -l followed by a pattern and file(s), it will search for the pattern in the specified file(s) and output only the names of the files that contain the pattern. This can be useful when you want to quickly identify the files that match a specific pattern without displaying the actual matching lines.
+
+For example, if you have multiple text files in a directory and you want to find the files that contain the word "example", you can use grep -l "example" *.txt. It will display the names of the files that have the word "example" in their contents.
+
+Note that grep -l does not show the actual lines containing the pattern. If you want to see the matching lines along with the filenames, you can use the -H option, like grep -lH "pattern" file(s).
+
+
+Input: what is the structure for grep -l
+
+Output:
+The structure for the grep -l command is as follows:
+
+shell
+Copy code
+grep -l [OPTIONS] PATTERN [FILE...]
+Here's a breakdown of each component:
+
+grep: The command itself for searching files using regular expressions.
+-l: The option for list-only mode. It instructs grep to display only the names of the files that contain the matching pattern.
+[OPTIONS]: Additional options that can be used with grep. These are optional and can modify the behavior of the command.
+PATTERN: The pattern or regular expression to search for in the files.
+[FILE...]: Optional file arguments. If specified, grep will search for the pattern only within these files. If not provided, grep will read input from the standard input.
+You can replace [OPTIONS] with any applicable options, such as -i for case-insensitive search or -r for recursive search. The PATTERN should be a valid regular expression or a plain text string to search for. [FILE...] can be one or more filenames or wildcard patterns to specify the files to search.
+
+For example, to search for the word "example" in all .txt files within the current directory and its subdirectories, you would use the command:
+
+shell
+Copy code
+grep -l "example" *.txt
+This will list only the names of the .txt files that contain the word "example".
+
+Input:
+give me an example of grep -o
+
+Output:
+The grep -o command is used to extract only the matching parts of the lines that contain the pattern. It stands for "grep, show only the matched parts."
+
+Here's an example of how to use grep -o:
+
+Let's say you have a file named example.txt with the following content:
+
+vbnet
+Copy code
+This is an example text. Example is important.
+If you want to extract only the word "example" from each matching line, you can use grep -o as follows:
+
+shell
+Copy code
+grep -o "example" example.txt
+The output will be:
+
+Copy code
+example
+example
+As you can see, grep -o only displays the matched parts, which in this case is the word "example" from each line that contains it. It ignores the rest of the line and focuses on the specific pattern you provided.
+
+Note that grep -o will display each matching occurrence on a separate line. If multiple matches exist within the same line, each match will be displayed on a new line.
+
+You can use other options and modifiers with grep -o to further refine your search and extract specific patterns from files or command output.
+
+Author Note: I used the May 12 2023 version. I interacted with ChatGPT more than what was transcripted but the other times I inputted a prompt, it was not helpful nor did it contribute to any of my lab report. I also did not quote/copied any ChatGPT output, only using the appropriate information to make my own sentences for the lab's tasks. There were same elements I used that I did not paraphrased because it would have been wonky like ChatGPT saying "grep -l is used to search for files" (Like how would I have changed that without sounding awkward). Other than that, most information was from TheGeekStuff website.
