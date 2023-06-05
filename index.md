@@ -5,7 +5,7 @@
 
 ### Step 4:
 
-<img src="Lab4_Step4.png" alt="Step4" width="300" height="300">
+<img src="Lab4_Step4.png" alt="Step4" width="400" height="300">
 
 Time: 0:46.32
 
@@ -17,7 +17,7 @@ Keys Pressed:
 
 ### Step 5:
 
-<img src="Lab4_Step5.png" alt="Step5" width="300" height="300">
+<img src="Lab4_Step5.png" alt="Step5" width="400" height="300">
 
 Time: 1:35.94
   
@@ -27,7 +27,7 @@ Keys Pressed:
 
 ### Step 6:
 
-<img src="Lab4_Step6.png" alt="Step6" width="300" height="300">
+<img src="Lab4_Step6.png" alt="Step6" width="400" height="300">
 
 Time: 2:08.23
   
@@ -37,7 +37,7 @@ Keys Pressed:
 
 ### Step 7:
 
-<img src="Lab4_Step7.png" alt="Step7" width="300" height="300">
+<img src="Lab4_Step7.png" alt="Step7" width="400" height="300">
 
 Time: 3:28.84
   
@@ -58,7 +58,7 @@ VIM Summary:
 
 ### Step 8:
 
-<img src="Lab4_Step8.png" alt="Step8" width="300" height="300">
+<img src="Lab4_Step8.png" alt="Step8" width="400" height="300">
 
 Time: 3:50.90
   
@@ -67,7 +67,7 @@ Keys Pressed:
 
 ### Step 9:
 
-<img src="Lab4_Step9.png" alt="Step9" width="300" height="300">
+<img src="Lab4_Step9.png" alt="Step9" width="400" height="300">
 
 Time: 5:03.88
   
