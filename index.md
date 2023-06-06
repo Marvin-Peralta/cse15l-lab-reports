@@ -8,7 +8,7 @@
 
 Hello, I hope whichever TA reads this, finds it in good health. My Pokemon class file seems to be bugless, but I'm having a tough time figuring out what is wrong with my PokemonDatabase class file when it comes to the `add()` and `remove()` methods.
 
-<img src="Lab5_StudentQ1.png" alt="Student_Question1" width="400" height="280">
+<img src="Lab5_StudentQ.png" alt="Student_Question1" width="400" height="280">
 
 <img src="Lab5_StudentQ2.png" alt="Student_Question2" width="400" height="280">
 
